@@ -47,3 +47,10 @@ for (let i = 1; i <= 20; i++) {
 }
 
 console.log("La suma total es: " + suma);
+
+//Ejercicio 6: funciones
+function mayorNumero(num1, num2) {
+  return Math.max(num1, num2);
+}
+
+console.log("El mayor es: " + mayorNumero(8, 15));
