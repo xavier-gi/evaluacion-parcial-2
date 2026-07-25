@@ -1,4 +1,4 @@
-Ejercicio 2: variables y tipos de datos
+//Ejercicio 2: variables y tipos de datos
 let nombreProducto1 = "Telefono";
 let precioProducto1 = 300;
 let disponibleProducto1 = true;
