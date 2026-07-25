@@ -9,3 +9,12 @@ let disponibleProducto2 = false;
 
 console.log("Producto 1:", nombreProducto1, precioProducto1, disponibleProducto1);
 console.log("Producto 2:", nombreProducto2, precioProducto2, disponibleProducto2);
+
+//Ejercicio 3: operadores
+let precio = 650;
+let descuento = precio * 0.15;
+let precioFinal = precio - descuento;
+
+console.log("Precio original: $" + precio);
+console.log("Dinero ahorrado: $" + descuento);
+console.log("Precio final: $" + precioFinal);
