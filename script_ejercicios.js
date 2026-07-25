@@ -18,3 +18,18 @@ let precioFinal = precio - descuento;
 console.log("Precio original: $" + precio);
 console.log("Dinero ahorrado: $" + descuento);
 console.log("Precio final: $" + precioFinal);
+
+//Ejercicio 4: estructuras de control
+function clasificarEdad(edad) {
+  if (edad < 18) {
+    console.log("Menor de edad");
+  } else if (edad <= 65) {
+    console.log("Adulto");
+  } else {
+    console.log("Adulto mayor");
+  }
+}
+
+clasificarEdad(15);
+clasificarEdad(30);
+clasificarEdad(70);
