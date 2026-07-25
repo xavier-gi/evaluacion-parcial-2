@@ -33,3 +33,17 @@ function clasificarEdad(edad) {
 clasificarEdad(15);
 clasificarEdad(30);
 clasificarEdad(70);
+
+//Ejercicio 5: bucles
+let suma = 0;
+
+for (let i = 1; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i + " es par");
+  } else {
+    console.log(i + " es impar");
+  }
+  suma = suma + i;
+}
+
+console.log("La suma total es: " + suma);
